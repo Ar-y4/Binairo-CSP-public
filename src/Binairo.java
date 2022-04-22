@@ -100,8 +100,8 @@ public class Binairo {
             for (int j = i+1; j < n; j++) {
                 int count = 0;
                 for (int k = 0; k < n; k++) {
-                    String a = cBoard.get(i).get(k).toLowerCase();
-                    if (a.equals(cBoard.get(j).get(k).toLowerCase()) && !a.equals("E")) {
+                    String a = cBoard.get(i).get(k);
+                    if (a.toLowerCase().equals(cBoard.get(j).get(k).toLowerCase()) && !a.equals("E")) {
                         count++;
                     }
                 }
@@ -117,8 +117,8 @@ public class Binairo {
             for (int k = j+1; k < n; k++) {
                 int count = 0;
                 for (int i = 0; i < n; i++) {
-                    String a = cBoard.get(i).get(j).toLowerCase();
-                    if (a.equals(cBoard.get(i).get(k).toLowerCase()) && !a.equals("E")) {
+                    String a = cBoard.get(i).get(k);
+                    if (a.toLowerCase().equals(cBoard.get(i).get(j).toLowerCase()) && !a.equals("E")) {
                         count++;
                     }
                 }
