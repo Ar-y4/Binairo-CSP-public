@@ -8,3 +8,6 @@ Binairo is played on a rectangular grid. Some cells start out filled with black 
 1. Each row and each column must contain an equal number of white and black circles. 
 2. More than two circles of the same color can't be adjacent. 
 3. Each row and column is unique.
+
+![Alt text](https://github.com/Arya-Ebrahimi/Binairo-Puzzle-CSP/blob/master/images/1.png?raw=true "1")
+
